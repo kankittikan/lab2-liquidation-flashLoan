@@ -37,8 +37,8 @@
       ]
     },
     "/Users/kan.kittikan/Desktop/lab2-liquidation/contracts/LiquidationOperator.sol": {
-      "lastModificationDate": 1680261248992,
-      "contentHash": "2f289bb5415a31c008a7ed9fa81d1adc",
+      "lastModificationDate": 1680538111809,
+      "contentHash": "058753d7beecb28982d370d6be840ea6",
       "sourceName": "contracts/LiquidationOperator.sol",
       "solcConfig": {
         "version": "0.8.7",
