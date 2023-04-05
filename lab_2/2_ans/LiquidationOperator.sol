@@ -171,7 +171,7 @@ contract LiquidationOperator is IUniswapV2Callee {
         uint256 numerator = amountInWithFee * reserveOut;
         uint256 denominator = reserveIn * 1000 + amountInWithFee;
         amountOut = numerator / denominator;
-    }
+    } 
 
     // some helper function, it is totally fine if you can finish the lab without using these function
     // given an output amount of an asset and pair reserves, returns a required input amount of the other asset
@@ -196,7 +196,7 @@ contract LiquidationOperator is IUniswapV2Callee {
 
         uniswapV2Pair_WBTC_USDT = IUniswapV2Pair(uniswapV2Factory.getPair(address(WBTC), address(USDT))); // Pool1
         uniswapV2Pair_WBTC_WETH = IUniswapV2Pair(uniswapV2Factory.getPair(address(WBTC), address(WETH))); // Pool2
-        debt_USDT = 10000000000; //2000000000, 5000000000, 10000000000
+        debt_USDT = 2000000000; //2000000000, 5000000000, 10000000000
         
         // END TODO
     }

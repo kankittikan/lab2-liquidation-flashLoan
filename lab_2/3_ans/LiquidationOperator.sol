@@ -261,8 +261,6 @@ contract LiquidationOperator is IUniswapV2Callee {
         (uint256 reserve_USDC_Pool, uint256 reserve_WETH_Pool, ) = uniswapV2Pair_USDC_WETH.getReserves(); // Pool
 
         // 2.1 liquidate the target user
-
-        console.log(USDC.balanceOf(address(this)));
         
         uint debtToCover = amount0;
         USDC.approve(address(lendingPool), debtToCover);
